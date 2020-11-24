@@ -1,0 +1,34 @@
+<script src="https://kit.fontawesome.com/156fef3bf2.js" crossorigin="anonymous"></script>
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-tag{
+    margin: 40px;
+}
+.col-md-4{
+    text-align: center;
+    margin-top: 50px;
+}
+.container p{
+    color: #949292;
+}
+.TT{
+    position: relative;
+}
+.TT::before{
+	background: red;
+	width: 100px;
+	height: 3px;
+	content: '';
+	position: absolute;
+	left: 47%;
+}
+.TT::after{
+	background: black;
+	width: 40px;
+	height: 3px;
+	content: '';
+	position: absolute;
+	left: 50%;
+}
